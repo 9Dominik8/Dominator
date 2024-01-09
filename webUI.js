@@ -1,7 +1,7 @@
 var ws;
 
 function connectWS() {
-    ws = new WebSocket("ws://192.168.0.108:7890/Echo");
+    ws = new WebSocket("wss://192.168.0.108:7890/Echo");
     if ("WebSocket" in window) {
 
 
